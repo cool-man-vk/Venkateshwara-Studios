@@ -1,0 +1,177 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.nav-list 
+{
+    animation: 1s ease-out 0s 1 slideInFromTop;
+}
+.enquire-hp 
+{
+  animation: 1s ease-out 0s 1 slideInFromTop;
+}
+.navbar img 
+{
+  animation: rotate 10s;
+}
+@keyframes rotate
+{
+  0%
+  {
+    transform: rotate(90 deg);
+  }
+  100%
+  {
+    transform: rotate(0deg);
+  }
+}
+.content-section h2 
+{
+  font-size: 40px;
+  line-height:60px;
+  letter-spacing: 7px;
+  font-family: 'Great Vibes', cursive;
+  background: -webkit-linear-gradient(-145deg,red,orange, yellow,green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-15%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-25%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  video 
+  {
+      animation: 1s ease-in 0s 1 slideInFromRight;
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(15%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .navbar img 
+  {
+      animation:1s ease-in-out 0s 1 slideInFromLeftimg ;
+  }
+  @keyframes slideInFromLeftimg {
+    0% {
+      transform: translateX(-25%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .desc h1 
+  {
+    animation: 1s ease-out 0s 1 slideInFromTop1;
+  }
+  @keyframes slideInFromTop1
+  {
+    0%
+    {
+        transform: translateY(-100px);
+        opacity:0;
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+  }
+  .desc p 
+  {
+    animation:1s ease-out 0s 1 slideInFromLeft2;
+  }
+  @keyframes slideInFromLeft2 {
+    0% {
+      transform: translateX(-60px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .img-cnt-sec1 img 
+  {
+    animation: 1s ease-in 0s 1 slideInFromRight;
+  }
+  .team-header
+  {
+    animation:1s ease-in 0s 1 slideInFromRight;
+  }
+  /* Scroll */
+  @keyframes borderGlow 
+  {
+    0%
+    {
+      box-shadow: 0 0 33px yellow;
+    }
+    20%
+    {
+      box-shadow: 0 0 33px orange;
+    }
+    40%
+    {
+      box-shadow: 0 0 33px white;
+    } 60%
+    {
+      box-shadow: 0 0 33px blueviolet;
+    }
+    80% 
+    {
+      box-shadow: 0 0 33px grey;
+    }
+    100%
+    {
+      box-shadow: 0 0 33px lightblue;
+    }
+  }
+  /*Testimonials*/
+  .main-cnt-test-inner >h1
+  {
+    animation: 1s ease-in 0s 1 fadeIn;
+  }
+  @keyframes fadeIn 
+  {
+    0%
+    {
+      transform: translateY(-50px);
+    }
+    100%
+    {
+      transform: translateX(0px);
+    }
+  }
+  .reviews > div ,  .reviews1> div
+  {
+    animation: 1s ease-in 0s 1 fadeInfromLeft;
+  }
+  @keyframes fadeInfromLeft
+  {
+    0%
+    {
+      transform: translateX(-100px);
+      opacity: 30%;
+    }
+    100%
+    {
+      transform: translateX(0px);
+      opacity: 100%;
+    }
+  }
